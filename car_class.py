@@ -12,6 +12,8 @@ class Automobile(Transport):
         self.mileage = mileage  # Пробег
         if tech_inspection:
             self.tech_inspection = "Пройден"
+        else:
+            self.tech_inspection = "Не пройден"
 
 
     def __repr__(self):
